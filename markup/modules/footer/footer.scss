@@ -1,0 +1,16 @@
+.footer {
+	box-sizing: border-box;
+	height: 125px;
+	padding-top: 45px;
+
+	text-align: center;
+
+	background: url(%=staticPrefixForCss=%general/footer-bg.png) no-repeat center top;
+	p {
+		margin: 0;
+
+		color: #fffefe;
+
+		font-size: em(20px);
+	}
+}

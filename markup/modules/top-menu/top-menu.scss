@@ -1,0 +1,12 @@
+.top-menu {
+	&__item {
+		font-size: em(18px);
+		color: $black;
+		margin-right: 15px;
+		@include transition;
+		&:hover, &.active {
+			text-decoration: none;
+			color: $brown;
+		}
+	}
+}

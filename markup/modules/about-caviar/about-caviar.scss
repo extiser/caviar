@@ -1,0 +1,55 @@
+.about-caviar {
+	padding-bottom: 50px;
+
+	background: linear-gradient(to bottom, #f8f9fb 0%,#efeae7 20%,#efeae7 80%,#f7f8f9 100%);
+	&__title {
+		@extend .title-lines;
+	}
+	&__description {
+		@extend .description;
+	}
+	&__row {
+		display: flex;
+
+		margin-top: 50px;
+		padding: 0 103px;
+
+		align-items: flex-start;
+		justify-content: space-between;
+		&--first {
+			background: url(%=staticPrefixForCss=%general/wave-up.png) no-repeat;
+		}
+		&--second {
+			background: url(%=staticPrefixForCss=%general/wave-down.png) no-repeat;
+		}
+	}
+}
+
+.about-caviar-item {
+	width: 210px;
+
+	text-align: center;
+	&__img {
+		margin-bottom: 12px;
+	}
+	&__title {
+		width: 90%;
+		margin: auto;
+
+		text-transform: uppercase;
+
+		color: #2c2a29;
+
+		font-size: em(22px);
+		font-weight: 700;
+	}
+	&__text {
+		margin-top: 10px;
+
+		text-align: left;
+
+		color: #54514d;
+
+		font-size: em(18px);
+	}
+}

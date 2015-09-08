@@ -1,0 +1,12 @@
+.container {
+	padding-top: 15px;
+	padding-bottom: 335px;
+
+	background: url(%=staticPrefixForCss=%general/container.jpg) no-repeat center bottom;
+	&__title {
+		@extend .title-lines;
+	}
+	&__description {
+		@extend .description;
+	}
+}

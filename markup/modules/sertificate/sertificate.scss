@@ -1,0 +1,14 @@
+.sertificate {
+	background: linear-gradient(to bottom, #f3f3f3 0%, #f0edeb 10%, #f0edeb 100%);
+	&__title {
+		@extend .title-lines;
+	}
+	&__list {
+		display: flex;
+
+		padding: 50px 55px;
+
+		align-items: center;
+		justify-content: space-between;
+	}
+}

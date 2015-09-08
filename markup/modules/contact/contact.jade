@@ -1,0 +1,25 @@
+mixin contact()
+	section.contact
+		.contact__title
+			span Наши контакты
+
+		.contact__content
+			.contact__map
+				img(src="%=staticPrefix=%images/content/temp-map.jpg" alt="")
+
+			.contact-list
+				.contact-list__title АДРЕС ОФИСА:
+				.contact-list__item г. Краснодар. ул. Название д. 123
+
+				.contact-list__title КОНТАКТНЫЕ ТЕЛЕФОНЫ:
+				.contact-list__item +7 123 456-78-90 
+					br
+					|+7 980 456-78-12
+
+				a(href="#" title="").contact-list__btn ОБРАТНЫЙ ЗВОНОК
+
+				.contact-list__title E-mail:
+				a(href="#" title="").contact-list__item yug-ikra@gmail.com
+
+				.contact-list__title ВРЕМЯ РАБОТЫ:
+				.contact-list__item Ежедневно с 9:00 до 20:00
