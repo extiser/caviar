@@ -4,20 +4,68 @@
 		"selected_items":
 		[
 			[
+				"pad",
+				"padding-top"
+			],
+			[
 				"te",
-				"text-decoration"
+				"text-align"
 			],
 			[
 				"margin",
-				"margin-top"
-			],
-			[
-				"pad",
-				"padding"
+				"margin-bottom"
 			],
 			[
 				"marign",
-				"margin-top"
+				"margin"
+			],
+			[
+				"ba",
+				"ba481f"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"con",
+				"contact-list__item"
+			],
+			[
+				"fn",
+				"font-size"
+			],
+			[
+				"ad",
+				"advantages-item"
+			],
+			[
+				"about-caviar-",
+				"about-caviar-item"
+			],
+			[
+				"cata",
+				"catalog-item"
+			],
+			[
+				"ca",
+				"catalog-item"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"top",
+				"top-menu__item"
+			],
+			[
+				"he",
+				"header-contact"
+			],
+			[
+				"bac",
+				"background-size"
 			],
 			[
 				"in",
@@ -60,10 +108,6 @@
 				"blocks-bottom-item"
 			],
 			[
-				"fon",
-				"font-size"
-			],
-			[
 				"back",
 				"background"
 			],
@@ -100,16 +144,8 @@
 				"border-bottom"
 			],
 			[
-				"top",
-				"top-menu"
-			],
-			[
 				"top-me",
 				"top-menu__item"
-			],
-			[
-				"he",
-				"header-social"
 			],
 			[
 				"backgr",
@@ -129,10 +165,6 @@
 			],
 			[
 				"caa",
-				"catalog-content-item"
-			],
-			[
-				"cata",
 				"catalog-content-item"
 			],
 			[
@@ -168,10 +200,6 @@
 				"request-form"
 			],
 			[
-				"ad",
-				"advantages__item"
-			],
-			[
 				"ou",
 				"outline-color"
 			],
@@ -182,10 +210,6 @@
 			[
 				"slide",
 				"slider"
-			],
-			[
-				"ca",
-				"cart-content-modification"
 			],
 			[
 				"car",
@@ -208,16 +232,8 @@
 				"catalog-tabs-content-box"
 			],
 			[
-				"fn",
-				"font-family"
-			],
-			[
 				"cat",
 				"catalog-tabs-content"
-			],
-			[
-				"con",
-				"contact-content"
 			],
 			[
 				"sli",
@@ -330,10 +346,6 @@
 			[
 				"menu",
 				"menu__mobile-icon"
-			],
-			[
-				"bac",
-				"background"
 			],
 			[
 				"c",
@@ -464,10 +476,6 @@
 				"scrollTop	.scrollTop()"
 			],
 			[
-				"min",
-				"min-height"
-			],
-			[
 				"mrg",
 				"margin-right"
 			],
@@ -506,14 +514,6 @@
 			[
 				"border-b",
 				"border-bottom"
-			],
-			[
-				"bord",
-				"border-bottom"
-			],
-			[
-				"padi",
-				"padding-right"
 			]
 		]
 	},
@@ -591,10 +591,43 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/extiser/git/caviar/markup"
+		"/Users/extiser/git/caviar/markup",
+		"/Users/extiser/git/caviar/markup/modules",
+		"/Users/extiser/git/caviar/markup/modules/footer",
+		"/Users/extiser/git/caviar/markup/pages",
+		"/Users/extiser/git/caviar/markup/static",
+		"/Users/extiser/git/caviar/markup/static/scss"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/caviar/markup/modules/footer/footer.jade",
+		"/Users/extiser/git/caviar/markup/pages/index.jade",
+		"/Users/extiser/git/caviar/markup/modules/footer/footer.scss",
+		"/Users/extiser/git/caviar/markup/modules/contact/contact.jade",
+		"/Users/extiser/git/caviar/markup/modules/contact/contact.scss",
+		"/Users/extiser/git/caviar/markup/modules/include/include.jade",
+		"/Users/extiser/git/caviar/markup/modules/sertificate/sertificate.jade",
+		"/Users/extiser/git/caviar/markup/modules/sertificate/sertificate.scss",
+		"/Users/extiser/git/caviar/markup/modules/advantages/advantages.jade",
+		"/Users/extiser/git/caviar/markup/modules/advantages/advantages.scss",
+		"/Users/extiser/git/caviar/markup/modules/about-caviar/about-caviar.jade",
+		"/Users/extiser/git/caviar/markup/modules/about-caviar/about-caviar.scss",
+		"/Users/extiser/git/caviar/markup/modules/container/container.jade",
+		"/Users/extiser/git/caviar/markup/modules/container/container.scss",
+		"/Users/extiser/git/caviar/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/caviar/markup/modules/catalog/catalog.jade",
+		"/Users/extiser/git/caviar/markup/modules/catalog/catalog.scss",
+		"/Users/extiser/git/caviar/markup/modules/header/header.scss",
+		"/Users/extiser/git/caviar/markup/static/scss/fonts.scss",
+		"/Users/extiser/git/caviar/markup/static/scss/common.scss",
+		"/Users/extiser/git/caviar/markup/modules/slider/slider.jade",
+		"/Users/extiser/git/caviar/markup/modules/slider/slider.js",
+		"/Users/extiser/git/caviar/markup/modules/slider/slider.scss",
+		"/Users/extiser/git/caviar/markup/modules/header/header.jade",
+		"/Users/extiser/git/caviar/markup/modules/top-menu/top-menu.jade",
+		"/Users/extiser/git/caviar/markup/modules/top-menu/top-menu.scss",
+		"/Users/extiser/git/caviar/markup/static/scss/mixins.scss",
+		"/Users/extiser/git/caviar/markup/static/scss/vars.scss",
 		"/Users/extiser/git/uteshbekov/markup/pages/photographer.jade",
 		"/Users/extiser/git/uteshbekov/markup/pages/portfolio.jade",
 		"/Users/extiser/git/uteshbekov/markup/modules/breadcrumbs/breadcrumbs.jade",
@@ -694,35 +727,7 @@
 		"/Users/extiser/git/amkodor-lp/markup/modules/modals/modals.scss",
 		"/Users/extiser/git/amkodor-lp/markup/modules/modals/modals.jade",
 		"/Users/extiser/git/amkodor-lp/markup/modules/spare-part-content/spare-part-content.jade",
-		"/Users/extiser/git/amkodor-lp/markup/modules/spares-content/spares-content.jade",
-		"/Users/extiser/git/amkodor-lp/markup/modules/spares-content/spares-content.scss",
-		"/Users/extiser/git/amkodor-lp/markup/modules/header/header.scss",
-		"/Users/extiser/git/amkodor-lp/markup/modules/header/header.jade",
-		"/Users/extiser/git/amkodor-lp/markup/pages/inside-page.jade",
-		"/Users/extiser/git/amkodor-lp/markup/modules/inside-page-content/inside-page-content.jade",
-		"/Users/extiser/git/amkodor-lp/markup/modules/inside-page-content/inside-page-content.scss",
-		"/Users/extiser/git/amkodor-lp/markup/pages/catalog-noslide.jade",
-		"/Users/extiser/git/amkodor-lp/markup/pages/spares-noslide.jade",
-		"/Users/extiser/git/amkodor-lp/markup/pages/spare-part-noslide.jade",
-		"/Users/extiser/git/amkodor-lp/markup/pages/spare-part.jade",
-		"/Users/extiser/git/amkodor-lp/markup/modules/slider/slider.scss",
-		"/Users/extiser/git/amkodor-lp/markup/modules/slider/slider.jade",
-		"/Users/extiser/git/amkodor-lp/markup/pages/catalog.jade",
-		"/Users/extiser/git/amkodor-lp/markup/modules/slider/slider.js",
-		"/Users/extiser/git/amkodor-lp/markup/modules/clients/clients.jade",
-		"/Users/extiser/git/amkodor-lp/markup/pages/index.jade",
-		"/Users/extiser/git/amkodor-lp/markup/modules/about/about.jade",
-		"/Users/extiser/git/amkodor-lp/markup/modules/about/about.scss",
-		"/Users/extiser/git/amkodor-lp/markup/modules/video/video.jade",
-		"/Users/extiser/git/amkodor-lp/markup/modules/video/video.scss",
-		"/Users/extiser/git/amkodor-lp/markup/modules/request-now/request-now.scss",
-		"/Users/extiser/git/amkodor-lp/markup/modules/delivery-map/delivery-map.scss",
-		"/Users/extiser/git/amkodor-lp/markup/modules/delivery-map/delivery-map.jade",
-		"/Users/extiser/git/amkodor-lp/markup/modules/how/how.jade",
-		"/Users/extiser/git/amkodor-lp/markup/modules/how/how.scss",
-		"/Users/extiser/git/amkodor-lp/markup/modules/services/services.scss",
-		"/Users/extiser/git/amkodor-lp/markup/modules/services/services.jade",
-		"/Users/extiser/git/amkodor-lp/markup/static/scss/mixins.scss"
+		"/Users/extiser/git/amkodor-lp/markup/modules/spares-content/spares-content.jade"
 	],
 	"find":
 	{
@@ -741,6 +746,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"PTSans-Bold",
 			"PTSans-Regular",
 			"PTSans-Italic",
 			"PTSans-Bold",
@@ -867,8 +873,7 @@
 			"full-catalog",
 			"loop",
 			"products",
-			"bread",
-			"Велоакс"
+			"bread"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -876,6 +881,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"NautilusPompilius",
+			"Calibri",
 			"AvenirNextLTPro-Regular",
 			"AvenirNextLTPro-It",
 			"AvenirNextLTPro-Bold",
@@ -1001,9 +1008,7 @@
 			"images/",
 			"font/",
 			"/font/",
-			"/images/",
-			"images/",
-			"font/"
+			"/images/"
 		],
 		"reverse": false,
 		"show_context": false,
@@ -1062,7 +1067,7 @@
 	"project": "caviar.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":

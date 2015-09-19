@@ -5,6 +5,9 @@
 
 	align-items: flex-start;
 	justify-content: space-between;
+	@media screen and (max-width: 960px) {
+		flex-wrap: wrap;
+	}
 	&__left,
 	&__right {
 		display: flex;
@@ -15,6 +18,9 @@
 		align-items: flex-start;
 		flex-wrap: wrap;
 		justify-content: space-between;
+		@media screen and (max-width: 960px) {
+			width: 100%;
+		}
 	}
 	&__title {
 		width: 100%;
@@ -40,6 +46,12 @@
 	&:nth-child(odd) {
 		border-left: 1px solid #d0d0d0;
 	}
+	@media screen and (max-width: 960px) {
+		overflow-x: hidden;
+	}
+	@media screen and (max-width: 420px) {
+		width: 100%;
+	}
 	&__title {
 		color: $black;
 
@@ -59,11 +71,18 @@
 		margin: auto;
 
 		color: #4c4b4b;
+		background-color: #fcf4f0;
 
 		font-size: em(22px);
 		line-height: 41px;
+		@media screen and (max-width: 960px) {
+			width: 100%;
 
-		@include bg($catalog-item-firm);
+			font-size: em(18px);
+		}
+		@media screen and (max-width: 320px) {
+			font-size: em(22px);
+		}
 	}
 	&__cost {
 		margin-top: 10px;

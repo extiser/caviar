@@ -1,26 +1,27 @@
 mixin catalog()
-	section.catalog
+	section.catalog#catalog
 		.catalog__left
 			.catalog__title Кетовая икра
 			
-			- for(var i = 0; i < 4; i++) {
+			- for(var i = 0; i < 6; i++) {
 			.catalog-item
 				.catalog-item__title Икра лососевая
 					span зернистая (кета), 5 кг
 				img(src="%=staticPrefix=%images/content/caviar.jpg" alt="").catalog-item__img
 				.catalog-item__firm ООО “Охотский берег”
 				.catalog-item__cost от 2300 руб.
-				a(href="#" title="").catalog-item__btn Подробнее
+				a(href="#" title="" data-click="modal" data-item="#modal-1").catalog-item__btn Подробнее
 			- }
 		.catalog__right
 			.catalog__title Горбушовая икра
 
-			- for(var i = 0; i < 4; i++) {
+			- for(var i = 0; i < 6; i++) {
 			.catalog-item
 				.catalog-item__title Икра лососевая
 					span зернистая (кета), 5 кг
 				img(src="%=staticPrefix=%images/content/caviar.jpg" alt="").catalog-item__img
 				.catalog-item__firm ООО “Охотский берег”
 				.catalog-item__cost от 2300 руб.
-				a(href="#" title="").catalog-item__btn Подробнее
+				a(href="#" title="" data-click="modal" data-item="#modal-1").catalog-item__btn Подробнее
 			- }
+	+catalog-modal()

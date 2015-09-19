@@ -32,6 +32,9 @@
 
 	font-family: "NautilusPompilius";
 	font-size: em(36px);
+	@media screen and (max-width: 960px) {
+		text-align: center;
+	}
 }
 
 .title-lines {
@@ -69,4 +72,7 @@
 
 	font-size: em(18px);
 	line-height: em(30px, 18px);
+	@media screen and (max-width: 960px) {
+		padding: 30px 25px;
+	}
 }

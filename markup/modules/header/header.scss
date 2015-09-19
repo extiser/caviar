@@ -1,8 +1,4 @@
 .header {
-	position: fixed;
-	z-index: 99;
-	top: 0;
-
 	display: flex;
 
 	box-sizing: border-box;
@@ -10,14 +6,45 @@
 	min-height: 125px;
 	padding: 0 32px;
 
+	transition: all .4s ease-in-out;
+
 	background: $gray url(%=staticPrefixForCss=%general/top-fish.png) no-repeat left top;
 
 	align-items: center;
 	justify-content: space-between;
+	@media screen and (max-width: 960px) {
+		width: 100%;
+		min-height: 60px;
+	}
+	&.fixed {
+		position: fixed;
+		z-index: 99;
+		top: 0;
+
+		min-height: 60px;
+
+		box-shadow: 0 0 10px rgba(0,0,0,.4);
+		.top-menu {
+			margin-right: 0;
+		}
+		.header-contact {
+			min-height: auto;
+			padding-left: 0;
+			&:before {
+				display: none;
+			}
+			&__btn {
+				display: none;
+			}
+		}
+	}
 	&__logo {
 		display: block;
 
 		@include bg($logo-desktop);
+		@media screen and (max-width: 960px) {
+			order: 2;
+		}
 	}
 }
 
@@ -26,12 +53,23 @@
 
 	min-height: 81px;
 	padding-left: 41px;
+	@media screen and (max-width: 960px) {
+		min-height: auto;
+
+		order: 3;
+	}
+	@media screen and (max-width: 480px) {
+		display: none;
+	}
 	&:before {
 		top: 5px;
 		left: 0;
 
-		@include content;
 		@include bg($dotted);
+		@include content;
+		@media screen and (max-width: 960px) {
+			display: none;
+		}
 	}
 	&__phone {
 		letter-spacing: .01em;
@@ -46,5 +84,8 @@
 	}
 	&__btn {
 		@extend .btn;
+		@media screen and (max-width: 960px) {
+			display: none;
+		}
 	}
 }

@@ -1,11 +1,58 @@
 .top-menu {
+	@media screen and (max-width: 960px) {
+		order: 1;
+	}
+	&__mobile {
+		display: none;
+		@media screen and (max-width: 960px) {
+			display: block;
+
+			@include bg($menu-mobile);
+		}
+	}
+	&__list {
+		@media screen and (max-width: 960px) {
+			position: absolute;
+			z-index: 94;
+			top: 60px;
+			left: -100px;
+
+			visibility: hidden;
+
+			width: 75%;
+
+			opacity: 0;
+			background: rgba(255,255,255,.9);
+
+			@include transition;
+			&.active {
+				left: 0;
+
+				visibility: visible;
+
+				opacity: 1;
+			}
+		}
+	}
 	&__item {
-		font-size: em(18px);
-		color: $black;
 		margin-right: 15px;
+
+		color: $black;
+
+		font-size: em(18px);
+
 		@include transition;
-		&:hover, &.active {
+		@media screen and (max-width: 960px) {
+			display: block;
+
+			margin-top: 15px;
+			margin-bottom: 15px;
+			padding-left: 30px;
+		}
+		&:hover,
+		&.active {
 			text-decoration: none;
+
 			color: $brown;
 		}
 	}

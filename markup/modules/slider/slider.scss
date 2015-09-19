@@ -1,5 +1,7 @@
 .slider {
-	margin-top: 125px;
+	@media screen and (max-width: 960px) {
+		display: none !important;
+	}
 	.slick-nav {
 		position: absolute;
 		top: 190px;
