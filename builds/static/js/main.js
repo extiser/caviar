@@ -45,9 +45,9 @@ jQuery(document).ready(function ($) {
 $(document).ready(function () {
     $('.top-menu__item').click(function () {
         var blockId = $(this).attr('href');
-        var headerHeight = $('.header').height();
         var destination = $(blockId).offset().top;
-        $('body').animate({ scrollTop: destination - headerHeight - 40 }, 1100);
+        var headerHeight = $('.header').height();
+        $('body').animate({ scrollTop: destination - headerHeight - 80 }, 1100);
         $('.top-menu__list').removeClass('active');
         return false;
     });
