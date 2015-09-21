@@ -103,8 +103,8 @@
 			top: 12px;
 			right: 16px;
 
-			@include bg($catalog-item-arrow);
 			@include content;
+			@include bg($catalog-item-arrow);
 		}
 		&:hover {
 			&:after {

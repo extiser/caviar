@@ -11,6 +11,9 @@ body {
 	@media screen and (min-width: 1600px), not all, screen and (-webkit-min-device-pixel-ratio: 1.5) {
 		background-image: url(%=staticPrefixForCss=%general/bg2@2x.jpg);
 	}
+	@media screen and (max-width: 1024px) {
+		background-image: none;
+	}
 }
 
 .main {
