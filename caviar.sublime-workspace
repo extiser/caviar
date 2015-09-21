@@ -594,6 +594,7 @@
 		"/Users/extiser/git/caviar/markup",
 		"/Users/extiser/git/caviar/markup/modules",
 		"/Users/extiser/git/caviar/markup/modules/contact",
+		"/Users/extiser/git/caviar/markup/modules/header",
 		"/Users/extiser/git/caviar/markup/modules/top-menu",
 		"/Users/extiser/git/caviar/markup/pages",
 		"/Users/extiser/git/caviar/markup/static",
@@ -601,11 +602,11 @@
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/caviar/markup/modules/header/header.js",
+		"/Users/extiser/git/caviar/markup/modules/top-menu/top-menu.js",
 		"/Users/extiser/git/caviar/markup/modules/top-menu/top-menu.jade",
 		"/Users/extiser/git/caviar/markup/modules/contact/contact.scss",
-		"/Users/extiser/git/caviar/markup/modules/top-menu/top-menu.js",
 		"/Users/extiser/git/caviar/markup/modules/catalog/catalog-modal.scss",
-		"/Users/extiser/git/caviar/markup/modules/header/header.js",
 		"/Users/extiser/git/caviar/markup/modules/about-caviar/about-caviar.scss",
 		"/Users/extiser/git/caviar/markup/modules/catalog/catalog.scss",
 		"/Users/extiser/git/caviar/markup/modules/sertificate/sertificate.scss",

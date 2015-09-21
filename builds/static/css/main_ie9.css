@@ -411,10 +411,9 @@ html, body {
       width: 100%; } }
 
 .about-caviar {
-  padding-top: 20px;
   padding-bottom: 50px;
-  background: -webkit-linear-gradient(top, #f8f9fb 0%, #efeae7 20%, #efeae7 80%, #f7f8f9 100%);
-  background: linear-gradient(to bottom, #f8f9fb 0%, #efeae7 20%, #efeae7 80%, #f7f8f9 100%); }
+  background: -webkit-linear-gradient(top, #f3f3f3 0%, #efeae7 20%, #efeae7 80%, #f7f8f9 100%);
+  background: linear-gradient(to bottom, #f3f3f3 0%, #efeae7 20%, #efeae7 80%, #f7f8f9 100%); }
   @media screen and (max-width: 960px) {
     .about-caviar {
       padding-bottom: 0; } }
@@ -708,7 +707,7 @@ html, body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 0 32px;
+  padding: 0 32px 18px;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
       -ms-flex-align: start;
