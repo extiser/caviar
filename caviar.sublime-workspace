@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"he",
+				"headerHeight"
+			],
+			[
 				"back",
 				"background-color"
 			],
@@ -80,10 +88,6 @@
 				"text-align"
 			],
 			[
-				"margin",
-				"margin-bottom"
-			],
-			[
 				"ba",
 				"ba481f"
 			],
@@ -102,10 +106,6 @@
 			[
 				"ca",
 				"catalog-item"
-			],
-			[
-				"he",
-				"header-contact"
 			],
 			[
 				"bac",
@@ -519,14 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "markup/pages/index.jade",
-			"settings":
-			{
-				"buffer_size": 533,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -601,32 +593,34 @@
 	[
 		"/Users/extiser/git/caviar/markup",
 		"/Users/extiser/git/caviar/markup/modules",
+		"/Users/extiser/git/caviar/markup/modules/contact",
+		"/Users/extiser/git/caviar/markup/modules/top-menu",
 		"/Users/extiser/git/caviar/markup/pages",
 		"/Users/extiser/git/caviar/markup/static",
 		"/Users/extiser/git/caviar/markup/static/scss"
 	],
 	"file_history":
 	[
-		"/Users/extiser/git/caviar/markup/modules/catalog/catalog.scss",
+		"/Users/extiser/git/caviar/markup/modules/top-menu/top-menu.jade",
+		"/Users/extiser/git/caviar/markup/modules/contact/contact.scss",
+		"/Users/extiser/git/caviar/markup/modules/top-menu/top-menu.js",
+		"/Users/extiser/git/caviar/markup/modules/catalog/catalog-modal.scss",
+		"/Users/extiser/git/caviar/markup/modules/header/header.js",
 		"/Users/extiser/git/caviar/markup/modules/about-caviar/about-caviar.scss",
+		"/Users/extiser/git/caviar/markup/modules/catalog/catalog.scss",
 		"/Users/extiser/git/caviar/markup/modules/sertificate/sertificate.scss",
 		"/Users/extiser/git/caviar/markup/modules/header/header.scss",
 		"/Users/extiser/git/caviar/markup/modules/slider/slider.scss",
-		"/Users/extiser/git/caviar/markup/modules/catalog/catalog-modal.scss",
 		"/Users/extiser/git/caviar/markup/modules/catalog/catalog-modal.jade",
 		"/Users/extiser/git/caviar/markup/modules/footer/footer.scss",
 		"/Users/extiser/git/caviar/markup/static/scss/common.scss",
-		"/Users/extiser/git/caviar/markup/modules/contact/contact.scss",
 		"/Users/extiser/git/caviar/markup/modules/advantages/advantages.scss",
 		"/Users/extiser/git/caviar/markup/static/scss/GUI.scss",
 		"/Users/extiser/git/caviar/markup/modules/top-menu/top-menu.scss",
-		"/Users/extiser/git/caviar/markup/modules/header/header.js",
-		"/Users/extiser/git/caviar/markup/modules/top-menu/top-menu.js",
 		"/Users/extiser/git/caviar/markup/modules/catalog/catalog.jade",
 		"/Users/extiser/git/caviar/markup/modules/catalog/catalog-modal.js",
 		"/Users/extiser/git/caviar/markup/modules/include/include.jade",
 		"/Users/extiser/git/caviar/markup/modules/footer/footer.jade",
-		"/Users/extiser/git/caviar/markup/modules/top-menu/top-menu.jade",
 		"/Users/extiser/git/caviar/markup/modules/contact/contact.jade",
 		"/Users/extiser/git/caviar/markup/modules/sertificate/sertificate.jade",
 		"/Users/extiser/git/caviar/markup/modules/advantages/advantages.jade",
@@ -753,6 +747,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			" onclick=\"return: false;\"",
 			"PTSans-Bold",
 			"PTSans-Regular",
 			"PTSans-Italic",
@@ -879,8 +874,7 @@
 			"Наши партнёры: ",
 			"full-catalog",
 			"loop",
-			"products",
-			"bread"
+			"products"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -888,6 +882,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
 			"NautilusPompilius",
 			"Calibri",
 			"AvenirNextLTPro-Regular",
@@ -1014,8 +1009,7 @@
 			" cell",
 			"images/",
 			"font/",
-			"/font/",
-			"/images/"
+			"/font/"
 		],
 		"reverse": false,
 		"show_context": false,
@@ -1026,39 +1020,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "markup/pages/index.jade",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 533,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

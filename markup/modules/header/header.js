@@ -1,6 +1,6 @@
 $(window).scroll(function () {
     var top = $(document).scrollTop();
-    if (top > 100) {
+    if (top > 1) {
         $('.header').addClass('fixed');
         $('.to-top').addClass('active');
         $('.top-menu__list').removeClass('active');
